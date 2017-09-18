@@ -1,0 +1,135 @@
+body {
+	height: 100vh;
+	width: 100vw;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+}
+
+.logo {
+	font-family: 'Raleway', sans-serif;
+,}
+#fullscreen-video {
+  position: fixed;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: -100;
+}
+
+.container {
+	background-color: rgba(0, 0, 0, 0.1);
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.header, .main-body {
+	display: flex;
+	align-items: center;
+}
+
+.header {
+	width: 100%;
+	min-height: 10%;
+	margin-bottom: 5%;
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+}
+
+.header > div {
+	width: 80%;
+	text-align: left;
+	margin-left: 2%;
+}
+.header span{
+	font-size: 3rem;
+	color: #fff;
+}
+
+.header > .header-links {
+	width: 20%;
+}
+
+.header-links > div {
+	margin-right: 10%;
+}
+.header-links > div > a {
+	margin-right: 5%;
+}
+
+.title {
+	/*font-size: 5em;*/
+}
+
+.main-body {
+	justify-content: top;
+	display: flex;
+	flex-direction: row;
+	height: 70%;
+    text-shadow: 2px 2px #000;
+	width: 80%;
+	margin-left: 20%;
+	margin-right: 10%;
+	font-weight: bold;
+	font-size: 1rem;
+}
+
+/*https://designschool.canva.com/blog/canva-for-work-brand-fonts/*/
+div.main-body-subsection {
+	height: 70%;
+	width: 30%;
+	margin-left: 5%;
+	margin-right: 5%;
+	line-height: 1.8;
+	text-align: top;
+	color: #fff;
+}
+
+div.main-body-subsection.left {
+	padding-right: 10%;
+	border-right: 1px solid #d3d3d3;
+}
+
+.main-body-subsection > div {
+	margin-bottom: 5%;
+	display: flex;
+	flex-direction: column;
+}
+
+.phone-number {
+	margin-top: 5%;
+}
+div > .email-us {
+	margin-top: 5%;
+	display: block;
+	width: 30%;
+	text-decoration: underline;
+	margin-top: 5%;
+}
+
+.email-us:hover {
+	text-shadow: #000;
+	background-color: none;
+	transform: scale(1.05);
+	border: none;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+	text-shadow: none;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #24aae2;
+}
+
+.main-body > div > div > a {
+	text-decoration: none;
+}
