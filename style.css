@@ -92,7 +92,7 @@ div.main-body-subsection {
 
 div.main-body-subsection.left {
 	padding-right: 10%;
-	border-right: 1px solid #d3d3d3;
+	/*border-right: 1px solid #d3d3d3;*/
 }
 
 .main-body-subsection > div {
