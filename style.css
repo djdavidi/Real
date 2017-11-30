@@ -25,6 +25,8 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	background: url("pic1.jpg");
+	background-size: cover;
 }
 
 .header, .main-body {
@@ -71,7 +73,7 @@ body {
 	display: flex;
 	flex-direction: row;
 	height: 70%;
-    text-shadow: 2px 2px #000;
+    /*text-shadow: 2px 2px #000;*/
 	width: 80%;
 	margin-left: 20%;
 	margin-right: 10%;
@@ -79,7 +81,6 @@ body {
 	font-size: 1rem;
 }
 
-/*https://designschool.canva.com/blog/canva-for-work-brand-fonts/*/
 div.main-body-subsection {
 	height: 70%;
 	width: 30%;
